@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#F5F5F5">
+
+    <Switch
+        android:id="@+id/switchDarkMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark Mode"
+        android:textColor="#212121"
+        android:layout_marginBottom="28dp" />
+
+    <TextView
+        android:id="@+id/txtJudulLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Biodata"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtSubJudulLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masuk untuk melihat data pengguna"
+        android:textSize="15sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/edtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:padding="14dp"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:textColorHint="#777777"
+        android:layout_marginBottom="14dp" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="14dp"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:textColorHint="#777777"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtInfoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username: admin | Password: 12345"
+        android:textSize="13sp"
+        android:textColor="#777777"
+        android:layout_marginTop="18dp" />
+
+</LinearLayout>
